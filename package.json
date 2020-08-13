@@ -1,0 +1,28 @@
+{
+  "name": "ca2api",
+  "version": "1.0.0",
+  "description": "sql api",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mssql": "^6.0.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "nodemon ./app.js",
+    "start": "node app.js"
+  },
+  "author": "Kammil Cylko",
+  "license": "ISC"
+}
